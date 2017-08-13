@@ -1,0 +1,43 @@
+.cont {
+  height: 3em;
+  width: 100%;
+  border-bottom: 2px grey solid;
+  line-height: 3em;
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  width: calc(30% - 1px);
+  border-right: 2px grey solid;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(70% - 1px);
+  display: inline-block;
+}
+
+.title {
+  margin: 0;
+  margin-left: .2em;
+}
+
+.titlelink {
+  text-decoration: none;
+  color: black;
+}
+
+.searchBar {
+  margin-left: .5em;
+  width: 25%;
+}
+
+.signin {
+  float: right;
+  margin-right: .2em;
+}

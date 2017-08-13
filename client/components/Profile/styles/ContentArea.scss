@@ -1,0 +1,19 @@
+.cont {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: calc(70% - calc(1px + 1em));
+  height: calc(100% - 1em);
+  margin: .5em;
+  overflow-y: scroll;
+}
+
+.conton {
+  margin-left: 2em;
+  text-align: center;
+  width: calc(100% - 4em);
+  height: calc(100% - 1em);
+  margin: .5em;
+  float: right;
+  overflow-y: scroll;
+}

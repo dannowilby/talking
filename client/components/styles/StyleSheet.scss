@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  min-width: 950px;
+  min-height: 740px;
+}
+
+/*TopBar Start*/
+.cont {
+  box-shadow: 0px 0px 5px #888888;
+  position: relative;
+  height: 3.3em;
+}
+
+//left
+.lcont {
+  width: 30%;
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  border-right: #535A92 solid 2px;
+  background-color: #535A92;
+}
+
+.title {
+  font-family: 'Unica One', cursive;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+//right
+.rcont {
+  width: 67%;
+  display: inline-block;
+  padding: .5em;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.login {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search {
+  padding: .3em;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px grey solid;
+  margin-left: 1em;
+}
+/*TopBar End*/
+
+/*NavBar Start*/
+.navSecTitle {
+  font-size: 1.1em;
+  font-weight: normal;
+  width: 100%;
+  border-bottom: 2px grey solid;
+  margin-bottom: .3em;
+}
+
+.navItemUsr {
+  margin-left: .2em;
+}
+
+.navItem {
+  border-left: 2px solid grey;
+  border-top: 1px solid grey;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.navItem:hover {
+  background-color: lightgrey;
+}
+
+.userPic {
+}
+
+.fol {
+  display: inline-block;
+  margin: 1em;
+}
+
+.bio {
+  margin-top: 1.5em;
+  font-weight: normal;
+}
+
+.folBut {
+  margin-top: .5em;
+  background-color: #535A92;
+  border: none;
+  color: white;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: .3em;
+  padding-bottom: .3em;
+  font-size: 1.1em;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.folBut:hover {
+  background-color: darken(#535A92, 15%);
+}
+
+.profname {
+  margin-bottom: 0;
+}
+
+.fol h2 {
+  margin-bottom: .5em;
+  font-size: 1em;
+}
+
+.cropper {
+  border: solid black 2px;
+  border-radius: 50%;
+  height: 256px;
+  width: 256px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.nav {
+  width: 30%;
+  height: calc(100vh - 4.5em);
+  min-height: 740px;
+  padding: .5em;
+  border-right: grey solid 2px;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.minNav {
+  height: calc(100vh - 3.55em);
+  width: 2.8em;
+  border-right: 2px grey solid;
+  display: inline-block;
+  text-align: center;
+}
+/*NavBar End*/
+
+.bot {
+}
+
+.contentLink {
+  margin: .5em;
+}
+
+.area {
+  display: inline-block;
+  vertical-align: top;
+  width: 68%;
+  max-height: calc(100vh - 3.5em);
+  overflow-y: scroll;
+}
+
+.areazzd{
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100vw - 4em);
+  max-height: calc(100vh - 3.5em);
+  overflow-y: scroll;
+}
+
+.contentarea {
+  display: inline-block;
+  margin: 0;
+}
+
+.thumbnail {
+  display: inline-block;
+  height: 100%;
+}
+
+.cpane {
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 0;
+}
+
+.conta {
+  margin: 1em;
+  margin-top: .5em;
+  text-align: center;
+}
+
+.arrowF {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -1em;
+  right: 0;
+}
+
+.extraInfo {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+}
+
+.infbut {
+  display: inline-block;
+  width: calc(50% - 1em);
+  height: 4em;
+  line-height: 4em;
+  background-color: white;
+  color: #535A92;
+  cursor: pointer;
+  margin-left: .25em;
+  margin-right: .25em;
+  margin-bottom: .25em;
+  margin-top: .25em;
+  box-shadow: 0px 0px 5px #888888;
+  border: 1px white solid;
+}
+
+.infbut:hover {
+  background-color: lightgrey;
+  border: 1px grey solid;
+}
+
+.holder {
+  position: relative;
+}
+
+.back {
+  margin-top: .25em;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+/*Content Pane Start*/
+.pane {
+  vertical-align: top;
+  box-shadow: 0px 0px 7px #333333;
+  overflow: hidden;
+  width: 18em;
+  height: 18em;
+  display: inline-block;
+  cursor: pointer;
+  margin: .3em;
+  background-color: black;
+}
+
+.thumbnail:hover {
+  opacity: .6;
+}
+/*Content Pane End*/

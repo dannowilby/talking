@@ -1,0 +1,23 @@
+.cont {
+  width: calc(30% - 1px);
+  height: 100%;
+  border-right: 2px solid grey;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.closedNav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2em;
+  border-right: 2px solid grey;
+}
+
+.arrow {
+  margin-top: .3em;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
